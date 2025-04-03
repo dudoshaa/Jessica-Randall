@@ -1,0 +1,66 @@
+@import "./global.css";
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  background-color: #171616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
+.card {
+  width: 384px;
+  background-color: #1f1f1f;
+  padding: 40px;
+  border-radius: 16px;
+  color: #ffffff;
+}
+.card__image {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+.card__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.card__suptitle {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #c4f82a;
+}
+.card__description {
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+.card__navlist {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #ffffff;
+}
+.card__navlist__item {
+  font-weight: 700;
+}
+.card__navlist__link {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  background-color: #333333;
+  transition: 0.3s;
+
+   &:hover{
+    background-color: #c4f82a;
+   }
+}
