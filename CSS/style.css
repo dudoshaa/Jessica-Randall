@@ -58,9 +58,11 @@ body {
   padding-bottom: 12px;
   color: #ffffff;
   background-color: #333333;
+  border-radius: 8px;
   transition: 0.3s;
 
    &:hover{
     background-color: #c4f82a;
+    color: #333333;
    }
 }
